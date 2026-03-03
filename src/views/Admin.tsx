@@ -77,6 +77,7 @@ export default function Admin(props: {
   const [fastList, setFastList] = useState(true)
   const [dummyTheme, setDummyTheme] = useState<'Trophies'|'Pizzas'|'Mixed'>('Mixed')
   const locked = useMemo(()=> Bracket.isLocked(props.tournament), [props.tournament])
+  const allowPublicBrackets = (props.tournament as any).allowPublicBrackets === true
 
   const resetBetaData = async () => {
     if (!props.tournamentId) return
@@ -163,6 +164,19 @@ export default function Admin(props: {
             <button className="btn" onClick={applyDummyTeams}>Apply Dummy Teams</button>
           </div>
           <small className="muted">This overwrites the team names and clears results (winners).</small>
+
+          <hr className="sep" />
+
+          <h3 style={{margin:'4px 0 8px'}}>Bracket viewing</h3>
+          <div className="row" style={{alignItems:'center'}}>
+            <button className="btn" onClick={() => {
+              const next = { ...(props.tournament as any), allowPublicBrackets: !allowPublicBrackets }
+              props.onUpdateTournament(next as any)
+            }}>
+              {allowPublicBrackets ? 'Disable Public Bracket Viewing' : 'Enable Public Bracket Viewing'}
+            </button>
+            <small className="muted">Admins can test anytime; public sees it after lock.</small>
+          </div>
 
           <div className="kv" style={{marginTop:10}}>
             <div><small className="muted">Entries</small></div><div><strong>{props.entries.length}</strong></div>

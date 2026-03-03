@@ -3,7 +3,7 @@ import { Bracket, type Entry, type Match, type Round, type Tournament } from '..
 import { supabase } from '../lib/supabase'
 
 const ROUND_ORDER: Round[] = ['R64','R32','S16','E8']
-type Tab = 'West'|'East'|'South'|'Midwest'|'FinalFour'
+type Tab = 'West'|'East'|'South'|'Midwest'|'FinalFour'|'Full'
 
 function titleForRound(r: Round){
   switch(r){
@@ -197,12 +197,46 @@ export default function MyBracket(props: {
             <option value="South">South</option>
             <option value="Midwest">Midwest</option>
             <option value="FinalFour">Final Four</option>
+            <option value="Full">Full Bracket</option>
           </select>
           <small className="muted">Pick winners and they advance automatically.</small>
+          <button className="btn" onClick={() => {
+            const w = window.open('', '_blank')
+            if (!w) return
+            w.document.write('<html><head><title>Bracket</title></head><body>')
+            w.document.write(document.getElementById('printable-bracket')?.innerHTML ?? '')
+            w.document.write('</body></html>')
+            w.document.close()
+            w.focus()
+            w.print()
+          }}>Print / Save PDF</button>
         </div>
       </div>
 
-      {tab !== 'FinalFour' ? <RegionBracket region={tab} /> : <FinalFourBracket />}
+      <div id="printable-bracket">
+      {tab === 'Full' ? (
+        <div className="grid">
+          {(['West','East','South','Midwest'] as const).map(region => (
+            <div key={region} className="card" style={{padding:12}}>
+              <h3 style={{margin:'0 0 10px'}}>{region}</h3>
+              <div className="grid cols-3">
+                {ROUND_ORDER.map(r => (
+                  <div key={r} className="card">
+                    <h3 style={{margin:'4px 0 10px'}}>{titleForRound(r)}</h3>
+                    <div className="grid">
+                      {(byRegion.get(region) ?? []).filter(m=>m.round===r).map(m => (
+                        <MatchCard key={m.id} tournament={props.tournament} entry={props.entry} match={m} locked={locked} onPick={pick} />
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+          <FinalFourBracket />
+        </div>
+      ) : (tab !== 'FinalFour' ? <RegionBracket region={tab} /> : <FinalFourBracket />)}
+    </div>
       <small className="muted">Beta saves to Supabase, so everyone shares the leaderboard.</small>
     </div>
   )

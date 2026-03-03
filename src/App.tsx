@@ -6,10 +6,11 @@ import CreateEntry from './views/CreateEntry'
 import MyBracket from './views/MyBracket'
 import Leaderboard from './views/Leaderboard'
 import Admin from './views/Admin'
+import ViewBrackets from './views/ViewBrackets'
 import { supabase } from './lib/supabase'
 import type { EntryRow, TournamentRow } from './lib/dbTypes'
 
-type Route = 'home' | 'create' | 'my' | 'leaderboard' | 'admin'
+type Route = 'home' | 'create' | 'my' | 'leaderboard' | 'brackets' | 'admin'
 
 const LS_ACTIVE_ENTRY = 'matp:activeEntryId'
 const LS_ACTIVE_EDIT = 'matp:activeEditCode'
@@ -141,6 +142,9 @@ export default function App(){
             <button className="btn" onClick={()=>setRoute('create')}>Create Bracket</button>
             <button className="btn" onClick={()=>setRoute('my')} disabled={!activeEntry}>My Bracket</button>
             <button className="btn" onClick={()=>setRoute('leaderboard')}>Leaderboard</button>
+            {(((tournament as any).allowPublicBrackets === true) && (adminUnlocked || (tournament.lockTime ? (Date.now() >= new Date(tournament.lockTime).getTime()) : false))) && (
+              <button className="btn" onClick={()=>setRoute('brackets')}>Brackets</button>
+            )}
             <button className="btn" onClick={()=>setRoute('admin')} disabled={!adminUnlocked}>Admin</button>
           </div>
         </div>
@@ -223,6 +227,10 @@ export default function App(){
 
         {route === 'leaderboard' && (
           <Leaderboard leaderboard={leaderboard} activeEntryId={activeEntryId} />
+        )}
+
+        {route === 'brackets' && (
+          <ViewBrackets tournament={tournament} entries={entries} allow={((tournament as any).allowPublicBrackets === true) && (adminUnlocked || (tournament.lockTime ? (Date.now() >= new Date(tournament.lockTime).getTime()) : false))} />
         )}
 
         {route === 'admin' && adminUnlocked && (
