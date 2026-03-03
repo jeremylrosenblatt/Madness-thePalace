@@ -25,3 +25,11 @@ This is a **working demo** of the March Madness bracket challenge app.
 - Selection Sunday import (CSV/paste) for official teams+seeds
 - Hosted database (Supabase/Firebase/etc.) so entries are shared
 - PWA install + QR code + public URL
+
+
+## Supabase (shared beta)
+Set Cloudflare Pages env vars:
+- VITE_SUPABASE_URL
+- VITE_SUPABASE_ANON_KEY
+
+Then run the SQL in `matp_supabase_setup.sql` (provided separately) in Supabase SQL Editor.
