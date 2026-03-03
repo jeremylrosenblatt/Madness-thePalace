@@ -1,0 +1,1032 @@
+{
+  "name": "Dummy Madness at the Palace",
+  "year": 2026,
+  "status": "DRAFT",
+  "lockTime": null,
+  "teams": [
+    {
+      "id": "West-1",
+      "name": "West Team 1",
+      "seed": 1,
+      "region": "West"
+    },
+    {
+      "id": "West-2",
+      "name": "West Team 2",
+      "seed": 2,
+      "region": "West"
+    },
+    {
+      "id": "West-3",
+      "name": "West Team 3",
+      "seed": 3,
+      "region": "West"
+    },
+    {
+      "id": "West-4",
+      "name": "West Team 4",
+      "seed": 4,
+      "region": "West"
+    },
+    {
+      "id": "West-5",
+      "name": "West Team 5",
+      "seed": 5,
+      "region": "West"
+    },
+    {
+      "id": "West-6",
+      "name": "West Team 6",
+      "seed": 6,
+      "region": "West"
+    },
+    {
+      "id": "West-7",
+      "name": "West Team 7",
+      "seed": 7,
+      "region": "West"
+    },
+    {
+      "id": "West-8",
+      "name": "West Team 8",
+      "seed": 8,
+      "region": "West"
+    },
+    {
+      "id": "West-9",
+      "name": "West Team 9",
+      "seed": 9,
+      "region": "West"
+    },
+    {
+      "id": "West-10",
+      "name": "West Team 10",
+      "seed": 10,
+      "region": "West"
+    },
+    {
+      "id": "West-11",
+      "name": "West Team 11",
+      "seed": 11,
+      "region": "West"
+    },
+    {
+      "id": "West-12",
+      "name": "West Team 12",
+      "seed": 12,
+      "region": "West"
+    },
+    {
+      "id": "West-13",
+      "name": "West Team 13",
+      "seed": 13,
+      "region": "West"
+    },
+    {
+      "id": "West-14",
+      "name": "West Team 14",
+      "seed": 14,
+      "region": "West"
+    },
+    {
+      "id": "West-15",
+      "name": "West Team 15",
+      "seed": 15,
+      "region": "West"
+    },
+    {
+      "id": "West-16",
+      "name": "West Team 16",
+      "seed": 16,
+      "region": "West"
+    },
+    {
+      "id": "East-1",
+      "name": "East Team 1",
+      "seed": 1,
+      "region": "East"
+    },
+    {
+      "id": "East-2",
+      "name": "East Team 2",
+      "seed": 2,
+      "region": "East"
+    },
+    {
+      "id": "East-3",
+      "name": "East Team 3",
+      "seed": 3,
+      "region": "East"
+    },
+    {
+      "id": "East-4",
+      "name": "East Team 4",
+      "seed": 4,
+      "region": "East"
+    },
+    {
+      "id": "East-5",
+      "name": "East Team 5",
+      "seed": 5,
+      "region": "East"
+    },
+    {
+      "id": "East-6",
+      "name": "East Team 6",
+      "seed": 6,
+      "region": "East"
+    },
+    {
+      "id": "East-7",
+      "name": "East Team 7",
+      "seed": 7,
+      "region": "East"
+    },
+    {
+      "id": "East-8",
+      "name": "East Team 8",
+      "seed": 8,
+      "region": "East"
+    },
+    {
+      "id": "East-9",
+      "name": "East Team 9",
+      "seed": 9,
+      "region": "East"
+    },
+    {
+      "id": "East-10",
+      "name": "East Team 10",
+      "seed": 10,
+      "region": "East"
+    },
+    {
+      "id": "East-11",
+      "name": "East Team 11",
+      "seed": 11,
+      "region": "East"
+    },
+    {
+      "id": "East-12",
+      "name": "East Team 12",
+      "seed": 12,
+      "region": "East"
+    },
+    {
+      "id": "East-13",
+      "name": "East Team 13",
+      "seed": 13,
+      "region": "East"
+    },
+    {
+      "id": "East-14",
+      "name": "East Team 14",
+      "seed": 14,
+      "region": "East"
+    },
+    {
+      "id": "East-15",
+      "name": "East Team 15",
+      "seed": 15,
+      "region": "East"
+    },
+    {
+      "id": "East-16",
+      "name": "East Team 16",
+      "seed": 16,
+      "region": "East"
+    },
+    {
+      "id": "South-1",
+      "name": "South Team 1",
+      "seed": 1,
+      "region": "South"
+    },
+    {
+      "id": "South-2",
+      "name": "South Team 2",
+      "seed": 2,
+      "region": "South"
+    },
+    {
+      "id": "South-3",
+      "name": "South Team 3",
+      "seed": 3,
+      "region": "South"
+    },
+    {
+      "id": "South-4",
+      "name": "South Team 4",
+      "seed": 4,
+      "region": "South"
+    },
+    {
+      "id": "South-5",
+      "name": "South Team 5",
+      "seed": 5,
+      "region": "South"
+    },
+    {
+      "id": "South-6",
+      "name": "South Team 6",
+      "seed": 6,
+      "region": "South"
+    },
+    {
+      "id": "South-7",
+      "name": "South Team 7",
+      "seed": 7,
+      "region": "South"
+    },
+    {
+      "id": "South-8",
+      "name": "South Team 8",
+      "seed": 8,
+      "region": "South"
+    },
+    {
+      "id": "South-9",
+      "name": "South Team 9",
+      "seed": 9,
+      "region": "South"
+    },
+    {
+      "id": "South-10",
+      "name": "South Team 10",
+      "seed": 10,
+      "region": "South"
+    },
+    {
+      "id": "South-11",
+      "name": "South Team 11",
+      "seed": 11,
+      "region": "South"
+    },
+    {
+      "id": "South-12",
+      "name": "South Team 12",
+      "seed": 12,
+      "region": "South"
+    },
+    {
+      "id": "South-13",
+      "name": "South Team 13",
+      "seed": 13,
+      "region": "South"
+    },
+    {
+      "id": "South-14",
+      "name": "South Team 14",
+      "seed": 14,
+      "region": "South"
+    },
+    {
+      "id": "South-15",
+      "name": "South Team 15",
+      "seed": 15,
+      "region": "South"
+    },
+    {
+      "id": "South-16",
+      "name": "South Team 16",
+      "seed": 16,
+      "region": "South"
+    },
+    {
+      "id": "Midwest-1",
+      "name": "Midwest Team 1",
+      "seed": 1,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-2",
+      "name": "Midwest Team 2",
+      "seed": 2,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-3",
+      "name": "Midwest Team 3",
+      "seed": 3,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-4",
+      "name": "Midwest Team 4",
+      "seed": 4,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-5",
+      "name": "Midwest Team 5",
+      "seed": 5,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-6",
+      "name": "Midwest Team 6",
+      "seed": 6,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-7",
+      "name": "Midwest Team 7",
+      "seed": 7,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-8",
+      "name": "Midwest Team 8",
+      "seed": 8,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-9",
+      "name": "Midwest Team 9",
+      "seed": 9,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-10",
+      "name": "Midwest Team 10",
+      "seed": 10,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-11",
+      "name": "Midwest Team 11",
+      "seed": 11,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-12",
+      "name": "Midwest Team 12",
+      "seed": 12,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-13",
+      "name": "Midwest Team 13",
+      "seed": 13,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-14",
+      "name": "Midwest Team 14",
+      "seed": 14,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-15",
+      "name": "Midwest Team 15",
+      "seed": 15,
+      "region": "Midwest"
+    },
+    {
+      "id": "Midwest-16",
+      "name": "Midwest Team 16",
+      "seed": 16,
+      "region": "Midwest"
+    }
+  ],
+  "matches": [
+    {
+      "id": "R64-West-1v16",
+      "round": "R64",
+      "region": "West",
+      "a": "West-1",
+      "b": "West-16",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-8v9",
+      "round": "R64",
+      "region": "West",
+      "a": "West-8",
+      "b": "West-9",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-5v12",
+      "round": "R64",
+      "region": "West",
+      "a": "West-5",
+      "b": "West-12",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-4v13",
+      "round": "R64",
+      "region": "West",
+      "a": "West-4",
+      "b": "West-13",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-6v11",
+      "round": "R64",
+      "region": "West",
+      "a": "West-6",
+      "b": "West-11",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-3v14",
+      "round": "R64",
+      "region": "West",
+      "a": "West-3",
+      "b": "West-14",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-7v10",
+      "round": "R64",
+      "region": "West",
+      "a": "West-7",
+      "b": "West-10",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-West-2v15",
+      "round": "R64",
+      "region": "West",
+      "a": "West-2",
+      "b": "West-15",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-1v16",
+      "round": "R64",
+      "region": "East",
+      "a": "East-1",
+      "b": "East-16",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-8v9",
+      "round": "R64",
+      "region": "East",
+      "a": "East-8",
+      "b": "East-9",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-5v12",
+      "round": "R64",
+      "region": "East",
+      "a": "East-5",
+      "b": "East-12",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-4v13",
+      "round": "R64",
+      "region": "East",
+      "a": "East-4",
+      "b": "East-13",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-6v11",
+      "round": "R64",
+      "region": "East",
+      "a": "East-6",
+      "b": "East-11",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-3v14",
+      "round": "R64",
+      "region": "East",
+      "a": "East-3",
+      "b": "East-14",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-7v10",
+      "round": "R64",
+      "region": "East",
+      "a": "East-7",
+      "b": "East-10",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-East-2v15",
+      "round": "R64",
+      "region": "East",
+      "a": "East-2",
+      "b": "East-15",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-1v16",
+      "round": "R64",
+      "region": "South",
+      "a": "South-1",
+      "b": "South-16",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-8v9",
+      "round": "R64",
+      "region": "South",
+      "a": "South-8",
+      "b": "South-9",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-5v12",
+      "round": "R64",
+      "region": "South",
+      "a": "South-5",
+      "b": "South-12",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-4v13",
+      "round": "R64",
+      "region": "South",
+      "a": "South-4",
+      "b": "South-13",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-6v11",
+      "round": "R64",
+      "region": "South",
+      "a": "South-6",
+      "b": "South-11",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-3v14",
+      "round": "R64",
+      "region": "South",
+      "a": "South-3",
+      "b": "South-14",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-7v10",
+      "round": "R64",
+      "region": "South",
+      "a": "South-7",
+      "b": "South-10",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-South-2v15",
+      "round": "R64",
+      "region": "South",
+      "a": "South-2",
+      "b": "South-15",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-1v16",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-1",
+      "b": "Midwest-16",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-8v9",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-8",
+      "b": "Midwest-9",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-5v12",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-5",
+      "b": "Midwest-12",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-4v13",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-4",
+      "b": "Midwest-13",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-6v11",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-6",
+      "b": "Midwest-11",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-3v14",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-3",
+      "b": "Midwest-14",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-7v10",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-7",
+      "b": "Midwest-10",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R64-Midwest-2v15",
+      "round": "R64",
+      "region": "Midwest",
+      "a": "Midwest-2",
+      "b": "Midwest-15",
+      "aFrom": null,
+      "bFrom": null,
+      "winner": null
+    },
+    {
+      "id": "R32-West-1",
+      "round": "R32",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-West-1v16",
+      "bFrom": "R64-West-8v9",
+      "winner": null
+    },
+    {
+      "id": "R32-West-2",
+      "round": "R32",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-West-5v12",
+      "bFrom": "R64-West-4v13",
+      "winner": null
+    },
+    {
+      "id": "R32-West-3",
+      "round": "R32",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-West-6v11",
+      "bFrom": "R64-West-3v14",
+      "winner": null
+    },
+    {
+      "id": "R32-West-4",
+      "round": "R32",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-West-7v10",
+      "bFrom": "R64-West-2v15",
+      "winner": null
+    },
+    {
+      "id": "S16-West-1",
+      "round": "S16",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-West-1",
+      "bFrom": "R32-West-2",
+      "winner": null
+    },
+    {
+      "id": "S16-West-2",
+      "round": "S16",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-West-3",
+      "bFrom": "R32-West-4",
+      "winner": null
+    },
+    {
+      "id": "E8-West-1",
+      "round": "E8",
+      "region": "West",
+      "a": null,
+      "b": null,
+      "aFrom": "S16-West-1",
+      "bFrom": "S16-West-2",
+      "winner": null
+    },
+    {
+      "id": "R32-East-1",
+      "round": "R32",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-East-1v16",
+      "bFrom": "R64-East-8v9",
+      "winner": null
+    },
+    {
+      "id": "R32-East-2",
+      "round": "R32",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-East-5v12",
+      "bFrom": "R64-East-4v13",
+      "winner": null
+    },
+    {
+      "id": "R32-East-3",
+      "round": "R32",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-East-6v11",
+      "bFrom": "R64-East-3v14",
+      "winner": null
+    },
+    {
+      "id": "R32-East-4",
+      "round": "R32",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-East-7v10",
+      "bFrom": "R64-East-2v15",
+      "winner": null
+    },
+    {
+      "id": "S16-East-1",
+      "round": "S16",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-East-1",
+      "bFrom": "R32-East-2",
+      "winner": null
+    },
+    {
+      "id": "S16-East-2",
+      "round": "S16",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-East-3",
+      "bFrom": "R32-East-4",
+      "winner": null
+    },
+    {
+      "id": "E8-East-1",
+      "round": "E8",
+      "region": "East",
+      "a": null,
+      "b": null,
+      "aFrom": "S16-East-1",
+      "bFrom": "S16-East-2",
+      "winner": null
+    },
+    {
+      "id": "R32-South-1",
+      "round": "R32",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-South-1v16",
+      "bFrom": "R64-South-8v9",
+      "winner": null
+    },
+    {
+      "id": "R32-South-2",
+      "round": "R32",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-South-5v12",
+      "bFrom": "R64-South-4v13",
+      "winner": null
+    },
+    {
+      "id": "R32-South-3",
+      "round": "R32",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-South-6v11",
+      "bFrom": "R64-South-3v14",
+      "winner": null
+    },
+    {
+      "id": "R32-South-4",
+      "round": "R32",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-South-7v10",
+      "bFrom": "R64-South-2v15",
+      "winner": null
+    },
+    {
+      "id": "S16-South-1",
+      "round": "S16",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-South-1",
+      "bFrom": "R32-South-2",
+      "winner": null
+    },
+    {
+      "id": "S16-South-2",
+      "round": "S16",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-South-3",
+      "bFrom": "R32-South-4",
+      "winner": null
+    },
+    {
+      "id": "E8-South-1",
+      "round": "E8",
+      "region": "South",
+      "a": null,
+      "b": null,
+      "aFrom": "S16-South-1",
+      "bFrom": "S16-South-2",
+      "winner": null
+    },
+    {
+      "id": "R32-Midwest-1",
+      "round": "R32",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-Midwest-1v16",
+      "bFrom": "R64-Midwest-8v9",
+      "winner": null
+    },
+    {
+      "id": "R32-Midwest-2",
+      "round": "R32",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-Midwest-5v12",
+      "bFrom": "R64-Midwest-4v13",
+      "winner": null
+    },
+    {
+      "id": "R32-Midwest-3",
+      "round": "R32",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-Midwest-6v11",
+      "bFrom": "R64-Midwest-3v14",
+      "winner": null
+    },
+    {
+      "id": "R32-Midwest-4",
+      "round": "R32",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "R64-Midwest-7v10",
+      "bFrom": "R64-Midwest-2v15",
+      "winner": null
+    },
+    {
+      "id": "S16-Midwest-1",
+      "round": "S16",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-Midwest-1",
+      "bFrom": "R32-Midwest-2",
+      "winner": null
+    },
+    {
+      "id": "S16-Midwest-2",
+      "round": "S16",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "R32-Midwest-3",
+      "bFrom": "R32-Midwest-4",
+      "winner": null
+    },
+    {
+      "id": "E8-Midwest-1",
+      "round": "E8",
+      "region": "Midwest",
+      "a": null,
+      "b": null,
+      "aFrom": "S16-Midwest-1",
+      "bFrom": "S16-Midwest-2",
+      "winner": null
+    },
+    {
+      "id": "F4-1",
+      "round": "F4",
+      "region": "FinalFour",
+      "a": null,
+      "b": null,
+      "aFrom": "E8-West-1",
+      "bFrom": "E8-East-1",
+      "winner": null
+    },
+    {
+      "id": "F4-2",
+      "round": "F4",
+      "region": "FinalFour",
+      "a": null,
+      "b": null,
+      "aFrom": "E8-South-1",
+      "bFrom": "E8-Midwest-1",
+      "winner": null
+    },
+    {
+      "id": "CH-1",
+      "round": "CH",
+      "region": "Championship",
+      "a": null,
+      "b": null,
+      "aFrom": "F4-1",
+      "bFrom": "F4-2",
+      "winner": null
+    }
+  ],
+  "scoring": {
+    "R64": 1,
+    "R32": 2,
+    "S16": 4,
+    "E8": 8,
+    "F4": 16,
+    "CH": 32
+  }
+}
