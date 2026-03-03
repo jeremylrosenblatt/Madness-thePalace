@@ -2,7 +2,10 @@ import { useMemo, useState } from 'react'
 import { Bracket, type Entry, type Tournament } from '../utils'
 import { supabase } from '../lib/supabase'
 
-function uid(){ return Math.random().toString(16).slice(2) + '-' + Date.now().toString(16) }
+function uid(){
+  // Proper UUID for Supabase uuid columns
+  return crypto.randomUUID()
+}
 
 export default function CreateEntry(props: {
   tournament: Tournament
